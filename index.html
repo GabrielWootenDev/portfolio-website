@@ -1,45 +1,91 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Gabriel's Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" rel="stylesheet" type="text/css"/>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Satisfy&family=Volkhov&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Gabriel Wooten</h1>
-        <h3>Software Engineering Student</h3>
+      <h1>Gabriel Wooten</h1>
+      <h3>Software Engineering Student</h3>
     </header>
-<!-- picture of self-->
-    <h2>
-        Hello there! My name is Gabriel Wooten!
-    </h2>
-    <p>I'm from Winston Salem, North Carolina and i'm currently learning software engineering through Thinkful! <!-- Thinkful as link to thinkful--></p>
-    <p>For the most part I basically live and breathe the internet; but I do enjoy some adventures outside of cyberspace as well! Some of my main hobbies and interests include: <!-- unordered list of items--> PC Gaming  Streaming on Twitch <!--as link to my twitch page--> Learning new and interesting subjects (Japanese, other coding languages) Going on Adventures Big or Small! (Hiking, Camping, Sight Seeing)</p>
-    <p>If you like my page and would like to know more please don't hesitate to contact me!<!--links to the bottom of the page at contacts--></p>
-<!-- picture of outdoors here -->
-<hr>
-    <h2>
-        A little about myself
-    </h2>
-    <p>For a long time after High School, I decided to spend some time to really discover myself and what I want my life to be. I have a wide array of interests but along the path I found a deep curiousity in technolgy, especially whe nit came to the subject of the internet and everything it contains as well as the applications I began to use in my day to day life. After all my time spent online I finally realized that I wanted to learn how it all worked, become a part of that world, and hopefully one day I can leave my own mark on cyberspace, however small or large.</p>
-    <p>Shortly after I began my program with Thinkful, I really understood that this was truly my passion, and I can't wait to learn something new each day and to continue learning all sorts of programming languages in the future!</p>
-    <p>If anyone needs a new developer or would like to collaborate on a project feel free to contact me! I'm always looking for new opportunites to learn and grow my skills and work with my peers.</p>
+    <div class="content">
+      <main>
+        <article id="introduction">
+        <!-- picture of self-->
+            <h2>Hello there! My name is Gabriel Wooten!</h2>
+            <p>I'm from Winston Salem, North Carolina and i'm currently learning
+            software engineering through <a href="http://www.thinkful.com" target="_blank">Thinkful!</a>
+            <!-- Thinkful as link to thinkful--></p>
+            <p>For the most part I basically live and breathe the internet; but I do
+            enjoy some adventures outside of cyberspace as well! Some of my main
+            hobbies and interests include:
+            <!-- unordered list of items-->
+            <ul>
+            <li>PC Gaming Streaming on <a href= "http://www.twitch.tv/hushlyb" target="_blank">Twitch</a></li>
+            <!--as link to my twitch page-->
+            <li>Learning new and interesting subjects (Japanese, other coding
+            languages) </li>
+            <li>Going on Adventures Big or Small! (Hiking, Camping, Sight
+             Seeing) </li>
+            </ul></p>
+            <p>If you like my page and would like to know more please don't hesitate
+            to <a href="#contacts">contact me!</a> <!--links to the bottom of the page at contacts--></p>
+        </article>
 
-<hr>
-    <h2>
-        Get in touch!
-    </h2>
-    <p>You can reach me at any of the links below if you would like to shoot me a message or get a peek at any projects I may be working on. <!--ordered list of contacts--> (Linked in profile link) (github profile link) (email link with subject filled)</p>
+            <img source="images/pilotMountainSunset.jpg" alt="Sunset at Pilot Mountain">
+            <!-- picture of outdoors here -->
+        <hr />
+        <article id="about-me">
+            <h2>A little about myself</h2>
+            <p>For a long time after High School, I decided to spend some time to
+            really discover myself and what I want my life to be. I have a wide
+            array of interests but along the path I found a deep curiousity in
+            technolgy, especially when it came to the subject of the internet and
+            everything it contains as well as the applications I began to use in
+            my day to day life. After all my time spent online I finally realized
+            that I wanted to learn how it all worked, become a part of that world,
+            and hopefully one day I can leave my own mark on cyberspace, however
+            small or large.</p>
+            <p>Shortly after I began my program with Thinkful, I really understood
+            that this was truly my passion. I'm currently learning JavaScript,
+            HTML, and CSS. I also can't wait to learn something new each day and
+            to continue learning all sorts of programming languages in the future!</p>
+            <p>If anyone needs a new developer or would like to collaborate on a 
+            project feel free to <a href="#contacts">contact me!</a> I'm always looking for new opportunites 
+            to learn and grow my skills and work with my peers.</p>
+        </article>
 
-<footer>
-    <h4>Copyright: Gabriel Wooten</h4>
-</footer>
-
-</body>
-
+        <hr />
+        <article id="contacts">
+            <h2>Get in touch!</h2>
+            <p>
+                You can reach me at any of the links below if you would like to shoot
+                me a message or get a peek at any projects I may be working on.
+                <!--ordered list of contacts-->
+                <ol>
+                <li><a href = "mailto:wootengabriel90@gmail.com?subject=Reaching out from your website">Send an Email</a></li>
+                <li><a href = "https://github.com/GabrielWootenDev">GitHub</a></li> 
+                <li><a href = "https://www.linkedin.com/in/gabriel-wooten-638a93229/">LinkedIn</a></li>
+                </ol>
+            </p>
+        </article>
+      </main>
+    </div>
+    <footer class="footer">
+      <h4>© Gabriel Wooten</h4>
+    </footer>
+  </body>
 </html>
