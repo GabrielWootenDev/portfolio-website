@@ -2,15 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gabriel's Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
       rel="stylesheet"
       type="text/css"
     />
+    <!--the link below is importing a few fonts from the google api for use on this page-->
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Satisfy&family=Volkhov&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Satisfy&family=Volkhov&display=swap" 
       rel="stylesheet"
     />
     <link href="style.css" rel="stylesheet" type="text/css" />
@@ -24,10 +25,10 @@
     <div class="content">
       <main>
           <div class = "wrapper">
-        <article id="introduction">
-            <div class = "group">
+        <article id="introduction"> <!--any "ids" throughout are written for links to that content, although I only have one on this page for the contacts-->
+            <div class = "group"> <!-- this exists around other container so that I may style them together-->
                 <div class = "flex1">
-                    <img src="https://raw.githubusercontent.com/GabrielWootenDev/portfolio-website/main/images/GabrielSelfie.jpg" alt = "Gabriel in the car">
+                    <img src="https://raw.githubusercontent.com/GabrielWootenDev/portfolio-website/main/images/GabrielSelfie.jpg" class = "selfie" alt = "Gabriel in the car">
                 </div>
         <!-- picture of self-->
                 <div class = "flex1">
@@ -90,6 +91,7 @@
                 me a message or get a peek at any projects I may be working on.
                 <!--ordered list of contacts-->
                 <ol>
+                  <!--email link specificaly opens an email and enters the subjects as "Reaching out from your website"-->
                 <li><a href = "mailto:wootengabriel90@gmail.com?subject=Reaching out from your website">Send an Email</a></li>
                 <li><a href = "https://github.com/GabrielWootenDev">GitHub</a></li> 
                 <li><a href = "https://www.linkedin.com/in/gabriel-wooten-638a93229/">LinkedIn</a></li>

@@ -9,6 +9,13 @@ header {
     text-align: center;
 }
 
+footer {
+    margin: 0;
+    background-color: #8F8D89;
+    text-align: right;
+}
+
+/* all heading styling starts here */
 h1, h2, h3 {
     margin: 0;
     text-align: center;
@@ -33,7 +40,9 @@ h4 {
     padding-right: 10px;
 }
 
+/* all images will size to 100% of there container and flex with other content in the group */
 img {
+    margin: 0;
     flex: 1;
     width: 100%;
     height: 100%;
@@ -43,23 +52,19 @@ hr {
     border-color: #1B468C;
 }
 
-footer {
-    margin: 0;
-    background-color: #8F8D89;
-    text-align: right;
-}
-
+/* changing all of the colors of the different states of my links */ 
 a:link { color:#1B468C }
 a:visited { color: #8F8D89}
 a:hover { color: #FCBF5D }
 a:active { color: #E2C290}
 
-
+/* removed the underline on my links */
 a {
     text-decoration: none;
     
 }
 
+/* the content class applied to a div over my main combined with the footer class only on my footer creates a footer that sticks on the bottom of my page */
 .content {
     min-height: calc(100vh - 70px);
 }
@@ -73,6 +78,7 @@ a {
     margin: auto;
   }
 
+/* class for simply centering text */
 .center {
     text-align:center;
 }
@@ -81,9 +87,16 @@ a {
     flex: 1;
     margin: 10px;
 }
-
+/* using my group class to put my images and other non text content to the left or right of the relevant text */
 .group {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
   }
+/* my self photo was too large so I made this specifically to size it down in a way to have proportions still looks decent */
+.selfie {
+    margin-left: 25px;
+    height: 740px;
+    width: 580px;
+}
+
