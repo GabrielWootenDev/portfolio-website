@@ -95,6 +95,7 @@ a {
   }
 /* my self photo was too large so I made this specifically to size it down in a way to have proportions still looks decent */
 .selfie {
+    flex: 1;
     margin-left: 25px;
     height: 740px;
     width: 580px;
